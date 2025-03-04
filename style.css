@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.container {
+  height: 100vh;
+  background-color: black;
+}
+.one {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background: yellow;
+  top: 2rem;
+  left: 4rem;
+}
+.two {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  right: 4rem;
+  top: 2rem;
+  border-radius: 50%;
+  background: gray;
+}
+.child {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+.grand-child {
+  position: absolute;
+  width: 7rem;
+  height: 6rem;
+  right: 3rem;
+  top: 1rem;
+  border-radius: 50%;
+  background: black;
+}
+.three {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  bottom:12rem ;
+  left: 30rem;
+  background: red;
+  z-index: 1;
+}
+.four {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  bottom: 12rem;
+  right: 30rem;
+  background: rgb(8, 8, 239);
+  z-index: 1;
+}
+.five {
+  position: fixed;
+  width: 100%;
+  height: 15rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgb(20, 20, 99);
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+  height: 100vh;
+  background-color: black;
+}
+.one {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background: yellow;
+  top: 2rem;
+  left: 4rem;
+}
+.two {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  right: 4rem;
+  top: 2rem;
+  border-radius: 50%;
+  background: gray;
+}
+.child {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+.grand-child {
+  position: absolute;
+  width: 7rem;
+  height: 6rem;
+  right: 3rem;
+  top: 1rem;
+  border-radius: 50%;
+  background: black;
+}
+.three {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  bottom:12rem ;
+  left: 20rem;
+  background: red;
+  z-index: 1;
+}
+.four {
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  bottom: 12rem;
+  right: 20rem;
+  background: rgb(8, 8, 239);
+  z-index: 1;
+}
+.five {
+  position: fixed;
+  width: 100%;
+  height: 15rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgb(20, 20, 99);
+}
+
+  
+}
